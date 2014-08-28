@@ -12,18 +12,34 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="/users">Micro Blog Home</a>
     </div>
+
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/users">Users</a></li>
         <li><a href="/posts">Posts</a></li>
         <li><a href="/tags">Tags</a></li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to " Logout", logout_path, class: "glyphicon glyphicon-record" %></li>
+       <li><audio id="foobar" src="http://www.derekmarch.com/k/audio_system_backup/notifications/Simpsons%20Theme.mp3" preload="auto">
       </ul>
     </div>
   </div>
 </nav><br/><br/><br/>
 <%= yield %>
+
+<script type="text/javascript">
+var sample = document.getElementById("foobar");
+sample.play();
+</script>
+
 </body>
+</html>
+
+
+<html>    
+    <body>
+
+    </body>
 </html>

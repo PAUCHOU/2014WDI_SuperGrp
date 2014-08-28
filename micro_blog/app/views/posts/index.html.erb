@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-offset-1 col-xs-6">
+    <div class="col-md-6">
 
 <h1>Posts</h1>
 
@@ -16,7 +16,11 @@
     <p><%= link_to "#{post.comments.length} comments", post_comments_path(post) %></p>
     <% end %>
 
-
     </div>
+
+        <div class="col-md-6">
+          <%= image_tag "Mail-Simpsons-icon.png" %>
+      </div>
+
   </div>
 </div>
