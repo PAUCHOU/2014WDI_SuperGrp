@@ -21,8 +21,8 @@
 		</ul>
 
 		<% if page.user.id == session[:user_id] %>
-			<%= button_to "Update", edit_user_path(@user), method: :get %><br/>
-			<%= button_to "Delete", @user, method: :delete %>
+			<%= button_to "Update", edit_user_path(@user), :class => "btn btn-sunny text-uppercase", method: :get %><br/>
+			<%= button_to "Delete", @user, :class => "btn btn-sunny text-uppercase", method: :delete %>
 		 <% end %>
 
 	<% end %>
