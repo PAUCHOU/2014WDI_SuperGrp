@@ -28,4 +28,7 @@ a, a:hover, a:active, a:visited {
 .ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:left;}
 .ds-btn li a span small{width:100%; display:inline-block; text-align:left;}
 
+.btn-sunny {color: #fff; background-color: #f4ad49; border-bottom:2px solid #c38a3a;}
+
+
 
