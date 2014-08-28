@@ -1,5 +1,6 @@
 class SessionController < ApplicationController
   def new
+    @home_page = true
     #my login form
   end
 

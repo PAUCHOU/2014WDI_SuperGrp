@@ -1,7 +1,28 @@
 body {
-  background: -webkit-linear-gradient(right, rgba(42, 187, 155,1), rgba(0,0,0,.1));
+	background-image: SimpsonsClouds.jpg;
+	background-color: #4EAFDC;
+/*  background: -webkit-linear-gradient(right, rgba(42, 187, 155,1), rgba(0,0,0,.1));
+  background: -o-linear-gradient(right, rgba(42, 187, 155,1), rgba(0,0,0,.1));
+  background: linear-gradient(to left, rgba(42, 187, 155,1), rgba(0,0,0,.1));
+*/  font-family: 'Comic Sans MS';
 }
 
+a, a:hover, a:active, a:visited {
+	color: white;
+}
+
+.image-right {
+	float: right;
+	margin:0 5px 0 0;
+}
+
+.home_page {
+	background: #FFFFFF url('SimpsonsClouds.jpg') center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+}
 
 .ds-btn li{ list-style:none; float:left; padding:10px; }
 .ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:left;}

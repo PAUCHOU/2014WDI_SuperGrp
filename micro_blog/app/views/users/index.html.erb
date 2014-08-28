@@ -1,6 +1,7 @@
-<h3 style="text-align: center;font-style:italic;">Welcome To the SuperGroup MicroBlog!</h3>
+<h1 style="text-align: center;font-style:italic;">Welcome To the Simpsons MicroBlog!</h1></br><br/>
 
 <div class="container">
+  <div class="col-xs-offset-1 col-xs-6">
   <% @users.each do |user| %>
     <%= form_for user do |f| %>
       <h3 style="margin: -3px;"><%= f.label :name, "#{user.first_name} #{user.last_name}" %></h3>
@@ -15,4 +16,9 @@
 
     <% end %>
   <% end %>
+  </div>
+</div>
+
+<div class="image-right">
+  <%= image_tag "bart_and_milhouse_xsml.png" %>
 </div>
